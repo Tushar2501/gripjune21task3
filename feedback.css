@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(240, 240, 188);
+    
+}
+form{
+    background-color: rgb(26, 223, 141);
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+}
+label{
+    text-align: left;  
+}
+input{
+    margin: 1rem;
+    padding: 0.5rem 2rem;
+    outline: none;
+}
+td{
+    text-align: right;
+}
+.back{
+    position: absolute;
+    bottom: 4.6rem;
+    color:green;
+}
+.back i{
+    margin: 0.3rem;
+}
+.back a{
+    color: rgb(248, 6, 6);
+    text-decoration: none;
+}
